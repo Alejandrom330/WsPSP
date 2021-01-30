@@ -65,7 +65,6 @@ public class HiloEscuchador implements Runnable{
 					enchufeAlCliente.close();
 				}
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}

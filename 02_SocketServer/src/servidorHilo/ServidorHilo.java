@@ -39,7 +39,6 @@ public class ServidorHilo {
 				try {
 					servidor.close();
 				} catch (IOException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 			}

@@ -50,19 +50,19 @@ public class SocketServer {
 				//TODO LO QUE LLEGA DEL CLIENTE Y LO QUE LE MANDE AL SERVIDOR SON STRING
 				System.out.println("SERVIDOR: Me ha llegado del cliente: " + stringRecibido);
 				String[] operadores = stringRecibido.split("-");
-				int operacion = Integer.parseInt(operadores[0]);//3
-				int iNumero1 = Integer.parseInt(operadores[1]);//3
-				int iNumero2 = Integer.parseInt(operadores[2]);//4
-				float resultado;
+				double iNumero1 = Double.parseDouble(operadores[0]);//3
+				double iNumero2 = Double.parseDouble(operadores[1]);//4
+				int operacion = Integer.parseInt(operadores[2]);//3
+				double resultado = 0;
 				
 				if (operacion == 1) {
-					resultado = iNumero1 + iNumero2;//7 
+					resultado = (iNumero1 + iNumero2);//7 
 				} else if (operacion == 2) {
-					resultado = iNumero1 - iNumero2;//7 
+					resultado = (iNumero1 - iNumero2);//7 
 				} else if (operacion == 3) {
-					resultado = iNumero1 * iNumero2;//7 
+					resultado = (iNumero1 * iNumero2);//7 
 				} else {
-					resultado = (float) iNumero1 / iNumero2;//7 
+					resultado = (iNumero1 / iNumero2);//7 
 				}
 				
 				//Thread.sleep(10000);//simulamos que tardamos un tiempo en calcular

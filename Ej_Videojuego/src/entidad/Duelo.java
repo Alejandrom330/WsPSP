@@ -63,10 +63,10 @@ public class Duelo {
 			
 			Scanner sc = new Scanner(System.in);
 			sc.nextLine();
+			sc.close();
 		}while(!combateAcabado);
 		
 		return pGanador;
 	}
-	
 	
 }

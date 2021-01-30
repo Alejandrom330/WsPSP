@@ -40,7 +40,7 @@ public class SocketClientRepetitivo {
 				salida = new PrintStream(socketCliente.getOutputStream());
 				// será lo que nos devuelva el servidor
 
-				System.out.println("Introduzca los numeros de la operacion a realizar");
+				System.out.println("Introduzca los numeros de la operacion a realizar \n(Si va a introducir un decimal hagalo con ' . ' ) ");
 				System.out.println("Primer numero:");
 				String numero1 = sc.nextLine();
 				System.out.println("Segundo numero:");
@@ -53,7 +53,7 @@ public class SocketClientRepetitivo {
 				System.out.println("3 - Multiplicacion");
 				System.out.println("4 - Division");
 				String operacion = sc.nextLine();
-				datos = operacion + "-" + datos;
+				datos = datos + "-" + operacion;
 				salida.println(datos);
 
 				BufferedReader bf = new BufferedReader(entrada);
