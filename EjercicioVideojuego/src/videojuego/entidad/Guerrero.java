@@ -24,7 +24,7 @@ public class Guerrero extends Personaje {
 			this.getArma().usar();
 			p.setVida(p.getVida() - 20);
 
-		} else {;
+		} else {
 			p.setVida(p.getVida() - 10);
 		}
 

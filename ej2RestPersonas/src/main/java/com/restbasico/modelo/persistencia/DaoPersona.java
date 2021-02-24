@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 import com.restbasico.modelo.entidad.Persona;
 
 /*
- * El concepto de dao representa una clase que sirve de cinexion de nuestra app con el modelo de datos (BBDD, ficheros),
+ * El concepto de dao representa una clase que sirve de conexion de nuestra app con el modelo de datos (BBDD, ficheros),
  *  si tenemos los objetos levantados en memoria
  */
 

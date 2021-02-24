@@ -55,6 +55,8 @@ public class SocketClientRepetitivo {
 				String operacion = sc.nextLine();
 				datos = datos + "-" + operacion;
 				salida.println(datos);
+				
+				
 
 				BufferedReader bf = new BufferedReader(entrada);
 				// Esperamos aqui a que responda el servidor
