@@ -1,19 +1,16 @@
-# WsPspAlcobendas
+# WsPsp Alejandro Mateo
 
-Workspace de la asignatura de PSP de Alcobendas
+# Ejercicios de entrega
 
-Java 1.8
+1- Ejercicio Casa esta en: Ejercicio1(Casa). Esta en los paquetes de entidad y main
 
-# Instalación
-Cuando te bajes el proyecto, abre la carpeta raiz donde se encuentran estos
-ejemplos como Workspace de Eclipse.
+2- Ejercicio videojuego esta en: EjercicioVideojuego (Ejercicio_videojuego es el de felix)
 
-Una vez abierto tienes que importar todos estos proyectos
-1) Project Explorer -> import projects -> General -> Existing Projects into Workpace
-2) Con la opcion "Select root directory" pulsamos Browse y seleccionamos nuestra carpeta
-raiz donde estan todos estos ejemplos
-3) Hecho esto, se nos deberán cargar todos los proyectos en la parte de "Projects", deberan
-estar todos seleccionados
-4) Pulsamos el boton "Finish"
-5) Debemos de ver todos los proyectos ahora en la pestaña "Project Explorer"
-6) Si algun proyecto aparece con errores, leer su README.md para solucionarlo
+3- EjercicioNumPrimos esta en: 01_Hilos(NumPrimos)
+
+4- El ejercicio de sockets esta en: 02_SocketClient y 02_SocketServer. Las clases que se encargan del ejercicio son las de SocketClientRepetitivo en 02_SocketClient y SocketServer en 02_SocketServer.
+
+5- El ejercicio RestBasico esta en RestBasicoEjercicio
+
+6- El ejercicio de RestVideojuego es EjercicioRestVideojuego
+
