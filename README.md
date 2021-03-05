@@ -14,3 +14,4 @@
 
 6- El ejercicio de RestVideojuego es EjercicioRestVideojuego
 
+7- El ejercicio de criptografia esta en EjercicioCriptografia
