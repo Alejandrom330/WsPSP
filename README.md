@@ -2,7 +2,7 @@
 
 # Ejercicios de entrega
 
-1- Ejercicio Casa esta en: Ejercicio1(Casa)
+1- Ejercicio Casa esta en: Ejercicio1(Casa). Esta en los paquetes de entidad y main
 
 2- Ejercicio videojuego esta en: EjercicioVideojuego (Ejercicio_videojuego es el de felix)
 
